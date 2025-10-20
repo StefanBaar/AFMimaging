@@ -7,6 +7,8 @@ This library converts `(X, Y, Z)` scattered AFM measurements into a smooth `(Nx 
 
 ## 🧠 Background: Why this exists
 
+- to learn about data processing in relation to AFM
+
 In AFM, especially when scanning:
 - with **nonlinear piezo motion**,
 - during **complex force maps**,
