@@ -90,10 +90,10 @@ if __name__ == '__main__':
     Y = np.load("X.npy")
     Z = np.load("X.npy")
 
-    RBF           = imaging.FastRBFInterpolator2D(grid_size = (4096, 4096),
-                                                  neighbors = 6,
-                                                  epsilon   = 1,
-                                                  device    = "cpu")
+    RBF  = FastRBFInterpolator2D(grid_size = (4096, 4096),
+                                 neighbors = 6,
+                                 epsilon   = 1,
+                                 device    = "cpu")
     contact_image = RBF.fit_transform(X, Y, Z)
 
     plt.figure(figsize=(5,4))
