@@ -45,7 +45,7 @@ This package provides a practical solution for exactly this problem.
 ## 🔧 Installation
 
 ```bash
-pip install numpy torch scikit-learn
+pip install numpy torch scikit-learn streamlit
 ````
 
 *(no CUDA required — M1 automatically uses Metal backend)*
@@ -53,6 +53,12 @@ pip install numpy torch scikit-learn
 ---
 
 ## 🧱 Usage
+
+### contact point streamlit app
+```bash
+streamlit run contact_stream.py
+````
+### RBF interpolator 
 
 ```python
 from fast_rbf_interp import FastRBFInterpolator2D
